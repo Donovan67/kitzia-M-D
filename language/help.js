@@ -16,379 +16,7 @@ return`ok`
 // Menu*
 exports.menu = (prefix, upvote) => {
 return`
-
-╭─❒ 「 Administración 」
-│» ${prefix}linkgrupo
-│» ${prefix}grupoinfo
-│» ${prefix}bug [reporte de bugs]
-│» ${prefix}report [reportar bug]
-│» ${prefix}ephemeral [opcion]
-│» ${prefix}setppgc [imagen]
-│» ${prefix}setname [text]
-│» ${prefix}setdesc [text]
-│» ${prefix}grupo [opcion]
-│» ${prefix}editinfo [opcion]
-│» ${prefix}add @user
-│» ${prefix}kick @user
-│» ${prefix}hidetag [text]
-│» ${prefix}tagall [text]
-│» ${prefix}antilink [on/off]
-│» ${prefix}mute [on/off]
-│» ${prefix}promote @user
-│» ${prefix}demote @user
-│» ${prefix}encuesta [text]
-│» ${prefix}votopositivo
-│» ${prefix}votonegativo
-│» ${prefix}checkvoto
-│» ${prefix}deletevoto
-╰❒
-
-╭─❒ 「 Descargas 」
-│» ${prefix}tiktoknowm [url]
-│» ${prefix}mp3 [url]
-│» ${prefix}mp4 [url]
-│» ${prefix}tiktokwm [url]
-│» ${prefix}tiktokmp3 [url]
-│» ${prefix}ytmp3 [url]
-│» ${prefix}ytmp4 [url]
-└───────
-
-╭─❒ 「 Busquedas 」
-│» ${prefix}play [consulta]
-│» ${prefix}ytsearch [titulos de videos]
-│» ${prefix}play2 [consulta]
-│» ${prefix}yts [consulta]
-│» ${prefix}google [consulta]
-│» ${prefix}googleimg [consulta]
-│» ${prefix}pinterest [consulta]
-│» ${prefix}wallpaper [consulta]
-│» ${prefix}wikimedia [consulta]
-│» ${prefix}ytsearch [consulta]
-│» ${prefix}ringtone [consulta]
-╰❒
-
-╭─❒ 「 Randoms 」
-│» ${prefix}coffe
-│» ${prefix}imgpareja
-│» ${prefix}avatar
-│» ${prefix}nekoo
-│» ${prefix}nekost
-│» ${prefix}waifu (nsfw)
-│» ${prefix}trap (nsfw)
-│» ${prefix}blowjob(nsfw)
-│» ${prefix}neko (nsfw)
-│» ${prefix}loli
-│» ${prefix}smug
-│» ${prefix}baka
-│» ${prefix}cat
-│» ${prefix}foxgirl
-│» ${prefix}imggif
-│» ${prefix}cry
-│» ${prefix}kill
-│» ${prefix}hug
-│» ${prefix}pat
-│» ${prefix}lick
-│» ${prefix}kiss
-│» ${prefix}bite
-│» ${prefix}yeet
-│» ${prefix}bully
-│» ${prefix}bonk
-│» ${prefix}wink
-│» ${prefix}poke
-│» ${prefix}nom
-│» ${prefix}slap
-│» ${prefix}smile
-│» ${prefix}wave
-│» ${prefix}awoo
-│» ${prefix}blush
-│» ${prefix}smug2
-│» ${prefix}glomp
-│» ${prefix}happy
-│» ${prefix}dance
-│» ${prefix}cringe
-│» ${prefix}cuddle
-│» ${prefix}highfive
-│» ${prefix}shinobu
-│» ${prefix}megumin
-│» ${prefix}handhold
-╰❒
-
-╭─❒ 「 Maker 」
-│» ${prefix}3d-effect
-» ${prefix}retrowb
-│» ${prefix}1917-style
-» ${prefix}anonymous-neon
-» ${prefix}einstein
-» ${prefix}diploma
-» ${prefix}esfrase
-» ${prefix}sings
-» ${prefix}leonlogo
-» ${prefix}glitch
-│» ${prefix}3d-rubystone
-│» ${prefix}3d-text-sub-zombie
-│» ${prefix}3dengraved
-│» ${prefix}3dluxury
-│» ${prefix}3dlove
-│» ${prefix}3dgolden
-│» ${prefix}3dscifi
-│» ${prefix}3dtext-effect
-│» ${prefix}3dunderwater
-│» ${prefix}3dwaterpipe
-│» ${prefix}alice-league-of-kings
-│» ${prefix}angel-wing-galaxy
-│» ${prefix}anubis
-│» ${prefix}arch-crossfire
-│» ${prefix}art-shader
-│» ${prefix}assassins-creed
-│» ${prefix} azzenka-league-of-kings
-│» ${prefix}birthday-cards
-│» ${prefix}birthday-greeting
-│» ${prefix}birthday-roses
-│» ${prefix}black-metal
-│» ${prefix}blood-frosted
-│» ${prefix}blood-text
-│» ${prefix}blue-effect
-│» ${prefix}blue-glitter
-│» ${prefix}brickwall
-│» ${prefix}brokentext
-│» ${prefix}bubble-effect
-│» ${prefix}bulb-effect
-│» ${prefix}circuit 
-│» ${prefix}dark-gold-metal
-│» ${prefix}color-fireworks
-│» ${prefix}cool-metal
-│» ${prefix}decorated-cookie
-│» ${prefix}deluxe-gold
-│» ${prefix}dinamo
-│» ${prefix}deluxe-silver
-│» ${prefix}double-exposure
-│» ${prefix}dragon-fire
-│» ${prefix}eroded-metal
-│» ${prefix}firework
-│» ${prefix}fox-crossfire
-│» ${prefix}fun-certify1
-│» ${prefix}fun-certify2
-│» ${prefix}futuristic
-│» ${prefix}galaxy-effect2
-│» ${prefix}galaxy-effect
-│» ${prefix}galaxy-angel
-│» ${prefix}galaxy-text
-│» ${prefix}galaxy-text-3
-│» ${prefix}gankk-league-of-kings
-│» ${prefix}genji-overwatch
-│» ${prefix}glossy
-│» ${prefix}glossy-bluemetal
-│» ${prefix}glossy-carbon
-│» ${prefix}glossy-chrome
-│» ${prefix}gold-avenger
-│» ${prefix}gold-barcar
-│» ${prefix}gold-batman
-│» ${prefix}gold-fox
-│» ${prefix}gold-effect
-│» ${prefix}gold-bird2
-│» ${prefix}gold-eagle
-│» ${prefix}gold-glitter
-│» ${prefix}gold-lion
-│» ${prefix}gold-lion2
-│» ${prefix}gold-star
-│» ${prefix}gold-tiger
-│» ${prefix}golden-letter
-│» ${prefix}gr-crossfire
-│» ${prefix}graffiti-color
-│» ${prefix}graffiti-text3
-│» ${prefix}graffiti-text4
-│» ${prefix}graffiti-text5
-│» ${prefix}graffiti-text8
-│» ${prefix}heart-birthday
-│» ${prefix}hanzo-overwatch
-│» ${prefix}greenhorror
-│» ${prefix}halloween-fire
-│» ${prefix}heart-cups
-│» ${prefix}green-brush
-│» ${prefix}hero3-crossfire
-│» ${prefix}holographic
-│» ${prefix}light-text
-│» ${prefix}lend-text
-│» ${prefix}ledtext
-│» ${prefix}lol-ahri
-│» ${prefix}logo-galaxy
-│» ${prefix}lol-fizz
-│» ${prefix}lol-ezreal-and-shen
-│» ${prefix}lol-fiora
-│» ${prefix}lol-draven
-│» ${prefix}lol-jinx
-│» ${prefix}lol-kalista
-│» ${prefix}lol-khazix
-│» ${prefix}lol-kogmaw
-│» ${prefix}lol-leesin
-│» ${prefix}lol-lux
-│» ${prefix}lol-master-yi
-│» ${prefix}lol-miss-fortune
-│» ${prefix}lol-nidalee
-│» ${prefix}lol-quinn
-│» ${prefix}lol-sona
-│» ${prefix}lol-riven
-│» ${prefix}lol-talon
-│» ${prefix}lol-thresh
-│» ${prefix}lol-vayne
-│» ${prefix}machines-effect
-│» ${prefix}lol-yasuo
-│» ${prefix}lol-zed
-│» ${prefix}lol-wukong
-│» ${prefix}magic-text
-│» ${prefix}mei-overwatch
-│» ${prefix}matrix-text
-│» ${prefix}magmatext
-│» ${prefix}metal-lion-2
-│» ${prefix}metal-headshot
-│» ${prefix}metal-avenger
-│» ${prefix}metal-realadrid
-│» ${prefix}metal-star
-│» ${prefix}metal-superman
-│» ${prefix}metal-text-effect
-│» ${prefix}metallic-letter
-│» ${prefix}metalic
-│» ${prefix}metal-wolf-2
-│» ${prefix}mganga-league-of-kings
-│» ${prefix}miniontext
-│» ${prefix}modern-gold-3
-│» ${prefix}modern-gold-4
-│» ${prefix}modern-gold-5-pro
-│» ${prefix}modern-gold-green
-│» ${prefix}modern-gold-purple
-│» ${prefix}modern-gold-red
-│» ${prefix}modern-gold-sliver
-│» ${prefix}modern-goldred
-│» ${prefix}neon
-│» ${prefix}neon-2
-│» ${prefix}neon-brightblue
-│» ${prefix}neon-effects
-│» ${prefix}neon-light-galaxy
-│» ${prefix}neon-satin
-│» ${prefix}neondevil
-│» ${prefix}neonlight
-│» ${prefix}neontext-light
-│» ${prefix}paper-cut
-│» ${prefix}paperart
-│» ${prefix}rainbow-effect
-│» ${prefix}reaper-overwatch
-│» ${prefix}red-birthdaycake
-│» ${prefix}redhot-metal
-│» ${prefix}resht-league-of-kings
-│» ${prefix}science
-│» ${prefix}sfg-crossfire
-│» ${prefix}sketch
-╰❒
-
-╭─❒ 「 Juegos 」
-│» ${prefix}amigos
-│» ${prefix}gay
-│» ${prefix}textoinvert [texto]
-│» ${prefix}convertid [traducir indonesia]
-│» ${prefix}sitiosx
-│» ${prefix}puto
-│» ${prefix}lesbian
-│» ${prefix}gil
-│» ${prefix}idiota
-│» ${prefix}cerdo
-│» ${prefix}hermoso
-│» ${prefix}elegante
-│» ${prefix}hachero
-│» ${prefix}estupendo
-│» ${prefix}noob
-│» ${prefix}pequeño
-│» ${prefix}sexy
-│» ${prefix}hot
-│» ${prefix}instagram
-│» ${prefix}pareja
-│» ${prefix}math [modo]
-│» ${prefix}suitpvp [@tag]
-└───────
-
-╭─❒ 「 Conversiones 」
-│» ${prefix}toimage
-│» ${prefix}attp
-│» ${prefix}attp1
-│» ${prefix}attp2
-│» ${prefix}attp3
-│» ${prefix}attp4
-│» ${prefix}attp5
-│» ${prefix}attp6
-│» ${prefix}ttp
-│» ${prefix}removebg
-│» ${prefix}smeme2 [texto arriba|texto abajo]
-│» ${prefix}smeme
-│» ${prefix}sticker
-│» ${prefix}emojimix 😝+😸
-│» ${prefix}emojimix2 🙄
-│» ${prefix}tovideo
-│» ${prefix}togif (stickerGif)
-│» ${prefix}tourl (imagen)
-│» ${prefix}tovn (video)
-│» ${prefix}tomp3 (video)
-│» ${prefix}toaudio (video)
-│» ${prefix}ebinary
-│» ${prefix}dbinary
-│» ${prefix}styletext
-╰❒
-
-╭─❒ 「 DataBase 」
-│» ${prefix}solicitar
-│» ${prefix}ping
-│» ${prefix}test
-│» ${prefix}owner
-│» ${prefix}Menu
-│» ${prefix}delete
-│» ${prefix}infochat
-│» ${prefix}quoted
-│» ${prefix}listpc
-│» ${prefix}listgc
-│» ${prefix}listonline
-│» ${prefix}setcmd
-│» ${prefix}listcmd
-│» ${prefix}delcmd
-│» ${prefix}lockcmd
-│» ${prefix}addmsg
-│» ${prefix}listmsg
-│» ${prefix}getmsg
-│» ${prefix}delmsg
-╰❒
-
-╭─❒ 「 Alteradores 」
-│» ${prefix}bass
-│» ${prefix}blown
-│» ${prefix}deep
-│» ${prefix}saturado
-│» ${prefix}fast
-│» ${prefix}fat
-│» ${prefix}nightcore
-│» ${prefix}reversa
-│» ${prefix}lento
-│» ${prefix}robot
-│» ${prefix}suave
-│» ${prefix}ardilla
-╰❒
-
-╭─❒ 「 Owner 」
-│» ${prefix}mode
-│» ${prefix}reacciona [emoji]
-│» ${prefix}join2 [link]
-│» ${prefix}chat [opcion]
-│» ${prefix}join [link]
-│» ${prefix}leave
-│» ${prefix}creditos
-│» ${prefix}block @user
-│» ${prefix}unblock @user
-│» ${prefix}bcgroup [text]
-│» ${prefix}bcall [text]
-│» ${prefix}setppbot [imagen]
-│» ${prefix}setexif
-╰❒
-
-╭─❒ 「 Agradecimiento 」
-│» DikaArdnt
-│» CarlosE
-╰❒
+coming soon
 `
 }
 
@@ -427,332 +55,620 @@ exports.thanksto = () => {
 //menu grupo
 exports.group = (prefix) => {
 return`
-╭─❒ 「 Administración 」
-│» ${prefix}grupoinfo [abrir/cerrar]
-│» ${prefix}linkgrupo 
-│» ${prefix}ephemeral [opcion]
-│» ${prefix}setppgc [imagen]
-│» ${prefix}setname [text]
-│» ${prefix}setdesc [text]
-│» ${prefix}grupo [opcion]
-│» ${prefix}editinfo [opcion]
-│» ${prefix}add @user
-│» ${prefix}bug [reportar error]
-│» ${prefix}kick @user
-│» ${prefix}hidetag [text]
-│» ${prefix}tagall [text]
-│» ${prefix}antilink [on/off]
-│» ${prefix}mute [on/off]
-│» ${prefix}promote @user
-│» ${prefix}demote @user
-│» ${prefix}encuesta [texto para encuesta]
-│» ${prefix}votopositivo [solo con encuestas on]
-│» ${prefix}votonegativo [solo con encuestas on]
-│» ${prefix}checkvoto [solo con encuestas on]
-│» ${prefix}deletevoto [eliminar encuesta]
-╰❒
+   「 GRUPOS 」
+
+001» ${prefix}linkgrupo
+ 
+002» ${prefix}grupoinfo
+
+003» ${prefix}autosticker
+
+004» ${prefix}bug [reporte de bugs]
+
+005» ${prefix}report [reportar bug]
+
+006» ${prefix}ephemeral [opcion]
+
+007» ${prefix}setppgc [imagen]
+
+008» ${prefix}setname [text]
+
+009» ${prefix}setdesc [text]
+
+010» ${prefix}grupo [opcion]
+
+011» ${prefix}editinfo [opcion]
+
+012» ${prefix}add @user
+
+013» ${prefix}kick @user
+
+014» ${prefix}hidetag [text]
+
+015» ${prefix}tagall [text]
+
+016» ${prefix}antilink [on/off]
+
+017» ${prefix}mute [on/off]
+
+018» ${prefix}promote @user
+
+019» ${prefix}demote @user
+
+020» ${prefix}encuesta [text]
+
+021» ${prefix}votopositivo
+
+022» ${prefix}votonegativo
+
+023» ${prefix}checkvoto
+
+024» ${prefix}profile
+
+025» ${prefix}deletevoto
+
+
+
 `
 }
 
 //downloads
 exports.downloads = (prefix) => {
 return`
-╭─❒ 「 Descargas 」
-│» ${prefix}tiktoknowm [url/link]
-│» ${prefix}tiktokwm [url/link]
-│» ${prefix}tiktokmp3 [url/link]
-│» ${prefix}ytmp3 [url/link]
-│» ${prefix}mp3 [url/link]
-│» ${prefix}mp4 [url/link]
-│» ${prefix}ytmp4 [url/link]
-╰❒
+   「 DOWNLOAD 」
+
+026» ${prefix}tiktoknowm [url]
+
+027» ${prefix}mp3 [url]
+
+028» ${prefix}mp4 [url]
+
+029» ${prefix}tiktokwm [url]
+
+030» ${prefix}tiktok [url]
+
+031» ${prefix}tiktokmusic [url]
+
+032» ${prefix}ytmp3 [url]
+
+033» ${prefix}play4 [url]
+
+034» ${prefix}ytmp4 [url]
+
+
+
+
 `
 }
 
 //Menu busquedas
 exports.search = (prefix) => {
 return`
-╭─❒ 「 Busquedas 」
-│» ${prefix}play [consulta]
-│» ${prefix}play2 [consulta]
-│» ${prefix}ytsearch [titulos exactos]
-│» ${prefix}yts [consulta]
-│» ${prefix}google [consulta]
-│» ${prefix}googleimg [consulta]
-│» ${prefix}pinterest [consulta]
-│» ${prefix}wallpaper [consulta]
-│» ${prefix}wikimedia [consulta]
-│» ${prefix}ytsearch [consulta]
-│» ${prefix}ringtone [consulta]
-╰❒
+   「 NAVEGADOR 」
+
+035» ${prefix}play [consulta]
+
+036» ${prefix}ssweb [link]
+
+037» ${prefix}ytsearch [titulos yt]
+
+038» ${prefix}play2 [consulta]
+
+039» ${prefix}yts [consulta]
+
+040» ${prefix}animesearch [consulta] 
+
+041» ${prefix}githubstalk [nickname]
+
+042» ${prefix}google [consulta]
+
+043» ${prefix}googleimg [consulta]
+
+044» ${prefix}pinterest [consulta]
+
+045» ${prefix}wallpaper [consulta]
+
+046» ${prefix}wikimedia [consulta]
+
+047» ${prefix}ytsearch [consulta]
+
+048» ${prefix}ringtone [consulta]
+
+
+
+
 `
 }
 
 //Random anime
 exports.random = (prefix) => {
 return`
-╭─❒ 「 Random 」
-│» ${prefix}coffe
-│» ${prefix}imgpareja
-│» ${prefix}avatar
-│» ${prefix}nekoo
-│» ${prefix}nekost
-│» ${prefix}smug
-│» ${prefix}baka
-│» ${prefix}cat
-│» ${prefix}foxgirl
-│» ${prefix}imggif
-│» ${prefix}waifu (nsfw)
-│» ${prefix}trap (nsfw)
-│» ${prefix}blowjob(nsfw)
-│» ${prefix}neko (nsfw)
-│» ${prefix}cuckold (nsfw)
-│» ${prefix}cumnsfw (nsfw)
-│» ${prefix}fendom (nsfw)
-│» ${prefix}ero (nsfw
-│» ${prefix}foot (nsfw)
-│» ${prefix}nsfwloli (nsfw)
-│» ${prefix}gangbang (nsfw)
-│» ${prefix}ahegeo (nsfw)
-│» ${prefix}ass (nsfw)
-│» ${prefix}bdsm (nsfw)
-│» ${prefix}nsfwblowjob (nsfw)
-│» ${prefix}glasses (nsfw)
-│» ${prefix}hentain (nsfw)
-│» ${prefix}loli
-│» ${prefix}cry
-│» ${prefix}kill
-│» ${prefix}hug
-│» ${prefix}pat
-│» ${prefix}lick
-│» ${prefix}kiss
-│» ${prefix}bite
-│» ${prefix}yeet
-│» ${prefix}bully
-│» ${prefix}bonk
-│» ${prefix}wink
-│» ${prefix}poke
-│» ${prefix}nom
-│» ${prefix}slap
-│» ${prefix}smile
-│» ${prefix}wave
-│» ${prefix}awoo
-│» ${prefix}blush
-│» ${prefix}smug2
-│» ${prefix}glomp
-│» ${prefix}happy
-│» ${prefix}dance
-│» ${prefix}cringe
-│» ${prefix}cuddle
-│» ${prefix}highfive
-│» ${prefix}shinobu
-│» ${prefix}megumin
-│» ${prefix}handhold
-╰❒
+   「 RANDOM 」
+
+049» ${prefix}coffe
+
+050» ${prefix}imgpareja
+
+051» ${prefix}avatar
+
+052» ${prefix}nekoo
+
+053» ${prefix}nekost
+
+054» ${prefix}waifu (nsfw)
+
+055» ${prefix}trap (nsfw)
+
+056» ${prefix}blowjob(nsfw)
+
+057» ${prefix}neko (nsfw)
+
+058» ${prefix}loli
+
+059» ${prefix}smug
+
+060» ${prefix}simi
+
+061» ${prefix}animestick
+
+062» ${prefix}emoji 😝
+
+063» ${prefix}kitzia
+
+064» ${prefix}cry
+
+065» ${prefix}kill
+
+066» ${prefix}hug
+
+067» ${prefix}pat
+
+068» ${prefix}lick
+
+069» ${prefix}kiss
+
+070» ${prefix}bite
+
+071» ${prefix}yeet
+
+072» ${prefix}bully
+
+073» ${prefix}bonk
+
+074» ${prefix}wink
+
+075» ${prefix}poke
+
+076» ${prefix}nom
+
+077» ${prefix}slap
+
+078» ${prefix}smile
+
+079» ${prefix}wave
+
+080» ${prefix}awoo
+
+081» ${prefix}blush
+
+082» ${prefix}dogestick
+
+083» ${prefix}glomp
+
+084» ${prefix}happy
+
+085» ${prefix}dance
+
+086» ${prefix}cringe
+
+087» ${prefix}cuddle
+
+088» ${prefix}highfive
+
+089» ${prefix}shinobu
+
+090» ${prefix}megumin
+
+091» ${prefix}handhold
+
+
+
 `
 }
 
 //texpro 
 exports.logomaker = (prefix) => {
 return`
-Este menu suele contener errores de api, algunos logos no funcionarán!
-╭─❒ 「 Maker 」
-│» ${prefix}3d-effect [texto]
-» ${prefix}retrowb [txt1|2|3]
-│» ${prefix}1917-style [texto]
-│» ${prefix}dado 
-│» ${prefix}anonymous-neon [texto]
-│» ${prefix}einstein [texto]
-│» ${prefix}diploma [txt1|2|3|4|5|6]
-│» ${prefix}esfrase [txt1|2|3|4|5]
-│» ${prefix}sings [txt1|2]
-│» ${prefix}leonlogo [txt1|2]
-│» ${prefix}glitch [txt1|2]
-│» ${prefix}3d-rubystone [texto]
-│» ${prefix}3d-text-sub-zombie [texto]
-│» ${prefix}3dengraved [texto]
-│» ${prefix}3dluxury [texto]
-│» ${prefix}3dlove [texto]
-│» ${prefix}3dgolden [texto]
-│» ${prefix}3dscifi [texto]
-│» ${prefix}3dtext-effect [texto]
-│» ${prefix}3dunderwater [texto]
-│» ${prefix}3dwaterpipe [texto]
-│» ${prefix}alice-league-of-kings [texto]
-│» ${prefix}angel-wing-galaxy [texto]
-│» ${prefix}anubis [texto]
-│» ${prefix}arch-crossfire [texto]
-│» ${prefix}art-shader [texto]
-│» ${prefix}assassins-creed [texto]
-│» ${prefix} azzenka-league-of-kings [texto]
-│» ${prefix}birthday-cards [texto]
-│» ${prefix}birthday-greeting [texto]
-│» ${prefix}birthday-roses [texto]
-│» ${prefix}black-metal [texto]
-│» ${prefix}blood-frosted [texto]
-│» ${prefix}blood-text [texto]
-│» ${prefix}blue-effect [texto]
-│» ${prefix}blue-glitter [texto]
-│» ${prefix}brickwall [texto]
-│» ${prefix}brokentext [texto]
-│» ${prefix}bubble-effect [texto]
-│» ${prefix}bulb-effect [texto]
-│» ${prefix}circuit  [texto]
-│» ${prefix}dark-gold-metal [texto]
-│» ${prefix}color-fireworks [texto]
-│» ${prefix}cool-metal [texto]
-│» ${prefix}decorated-cookie [texto]
-│» ${prefix}deluxe-gold [texto]
-│» ${prefix}dinamo [texto]
-│» ${prefix}deluxe-silver [texto]
-│» ${prefix}double-exposure [texto]
-│» ${prefix}dragon-fire [texto]
-│» ${prefix}eroded-metal [texto]
-│» ${prefix}firework [texto]
-│» ${prefix}fox-crossfire [texto]
-│» ${prefix}fun-certify1 [texto]
-│» ${prefix}fun-certify2 [texto]
-│» ${prefix}futuristic [texto]
-│» ${prefix}galaxy-effect2 [texto]
-│» ${prefix}galaxy-effect [texto]
-│» ${prefix}galaxy-angel [texto]
-│» ${prefix}galaxy-text [texto]
-│» ${prefix}galaxy-text-3 [texto]
-│» ${prefix}gankk-league-of-kings [texto]
-│» ${prefix}genji-overwatch [texto]
-│» ${prefix}glossy [texto]
-│» ${prefix}glossy-bluemetal [texto]
-│» ${prefix}glossy-carbon [texto]
-│» ${prefix}glossy-chrome [texto]
-│» ${prefix}gold-avenger [texto]
-│» ${prefix}gold-barcar [texto]
-│» ${prefix}gold-batman [texto]
-│» ${prefix}gold-fox [texto]
-│» ${prefix}gold-effect [texto]
-│» ${prefix}gold-bird2 [texto]
-│» ${prefix}gold-eagle [texto]
-│» ${prefix}gold-glitter [texto]
-│» ${prefix}gold-lion [texto]
-│» ${prefix}gold-lion2 [texto]
-│» ${prefix}gold-star [texto]
-│» ${prefix}gold-tiger [texto]
-│» ${prefix}golden-letter [texto]
-│» ${prefix}gr-crossfire [texto]
-│» ${prefix}graffiti-color [texto]
-│» ${prefix}graffiti-text3 [texto]
-│» ${prefix}graffiti-text4 [texto]
-│» ${prefix}graffiti-text5 [texto]
-│» ${prefix}graffiti-text8 [texto]
-│» ${prefix}heart-birthday [texto]
-│» ${prefix}hanzo-overwatch [texto]
-│» ${prefix}greenhorror [texto]
-│» ${prefix}halloween-fire [texto]
-│» ${prefix}heart-cups [texto]
-│» ${prefix}green-brush [texto]
-│» ${prefix}hero3-crossfire [texto]
-│» ${prefix}holographic [texto]
-│» ${prefix}light-text [texto]
-│» ${prefix}lend-text [texto]
-│» ${prefix}ledtext [texto]
-│» ${prefix}lol-ahri [texto]
-│» ${prefix}logo-galaxy [texto]
-│» ${prefix}lol-fizz [texto]
-│» ${prefix}lol-ezreal-and-shen [texto]
-│» ${prefix}lol-fiora [texto]
-│» ${prefix}lol-draven [texto]
-│» ${prefix}lol-jinx [texto]
-│» ${prefix}lol-kalista [texto]
-│» ${prefix}lol-khazix [texto]
-│» ${prefix}lol-kogmaw [texto]
-│» ${prefix}lol-leesin [texto]
-│» ${prefix}lol-lux [texto]
-│» ${prefix}lol-master-yi [texto]
-│» ${prefix}lol-miss-fortune [texto]
-│» ${prefix}lol-nidalee [texto]
-│» ${prefix}lol-quinn [texto]
-│» ${prefix}lol-sona [texto]
-│» ${prefix}lol-riven [texto]
-│» ${prefix}lol-talon [texto]
-│» ${prefix}lol-thresh [texto]
-│» ${prefix}lol-vayne [texto]
-│» ${prefix}machines-effect [texto]
-│» ${prefix}lol-yasuo [texto]
-│» ${prefix}lol-zed [texto]
-│» ${prefix}lol-wukong [texto]
-│» ${prefix}magic-text [texto]
-│» ${prefix}mei-overwatch [texto]
-│» ${prefix}matrix-text [texto]
-│» ${prefix}magmatext [texto]
-│» ${prefix}metal-lion-2 [texto]
-│» ${prefix}metal-headshot [texto]
-│» ${prefix}metal-avenger [texto]
-│» ${prefix}metal-realadrid [texto]
-│» ${prefix}metal-star [texto]
-│» ${prefix}metal-superman [texto]
-│» ${prefix}metal-text-effect [texto]
-│» ${prefix}metallic-letter [texto]
-│» ${prefix}metalic [texto]
-│» ${prefix}metal-wolf-2 [texto]
-│» ${prefix}mganga-league-of-kings [texto]
-│» ${prefix}miniontext [texto]
-│» ${prefix}modern-gold-3 [texto]
-│» ${prefix}modern-gold-4 [texto]
-│» ${prefix}modern-gold-5-pro [texto]
-│» ${prefix}modern-gold-green [texto]
-│» ${prefix}modern-gold-purple [texto]
-│» ${prefix}modern-gold-red [texto]
-│» ${prefix}modern-gold-sliver [texto]
-│» ${prefix}modern-goldred [texto]
-│» ${prefix}neon [texto]
-│» ${prefix}neon-2 [texto]
-│» ${prefix}neon-brightblue [texto]
-│» ${prefix}neon-effects [texto]
-│» ${prefix}neon-light-galaxy [texto]
-│» ${prefix}neon-satin [texto]
-│» ${prefix}neondevil [texto]
-│» ${prefix}neonlight [texto]
-│» ${prefix}neontext-light [texto]
-│» ${prefix}paper-cut [texto]
-│» ${prefix}paperart [texto]
-│» ${prefix}rainbow-effect [texto]
-│» ${prefix}reaper-overwatch [texto]
-│» ${prefix}red-birthdaycake [texto]
-│» ${prefix}redhot-metal [texto]
-│» ${prefix}resht-league-of-kings [texto]
-│» ${prefix}science [texto]
-│» ${prefix}sfg-crossfire [texto]
-│» ${prefix}sketch [texto]
-╰❒
+   「 MAKER 」
+   
+092» ${prefix}carcel [imagen]
+
+093» ${prefix}3d-effect
+
+094» ${prefix}retrowb
+
+095» ${prefix}anonymous-neon
+
+096» ${prefix}einstein
+
+097» ${prefix}diploma
+
+098» ${prefix}esfrase
+
+099» ${prefix}sings
+
+100» ${prefix}leonlogo
+
+101» ${prefix}glitch
+
+102» ${prefix}1917-style
+
+103» ${prefix}3d-rubystone
+
+104» ${prefix}3d-text-sub-zombie
+
+105» ${prefix}3dengraved
+
+106» ${prefix}3dluxury
+
+107» ${prefix}3dlove
+
+108» ${prefix}3dgolden
+
+109» ${prefix}3dscifi
+
+110» ${prefix}3dtext-effect
+
+111» ${prefix}3dunderwater
+
+112» ${prefix}3dwaterpipe
+
+113» ${prefix}alice-league-of-kings
+
+114» ${prefix}angel-wing-galaxy
+
+115» ${prefix}anubis
+
+116» ${prefix}arch-crossfire
+
+117» ${prefix}art-shader
+
+118» ${prefix}assassins-creed
+
+119» ${prefix}azzenka-league-of-kings
+
+120» ${prefix}birthday-cards
+
+121» ${prefix}birthday-greeting
+
+122» ${prefix}birthday-roses
+
+123» ${prefix}black-metal
+
+124» ${prefix}blood-frosted
+
+125» ${prefix}blood-text
+
+126» ${prefix}blue-effect
+
+127» ${prefix}blue-glitter
+
+128» ${prefix}brickwall
+
+129» ${prefix}brokentext
+
+130» ${prefix}bubble-effect
+
+140» ${prefix}bulb-effect
+
+141» ${prefix}circuit 
+
+142» ${prefix}dark-gold-metal
+
+143» ${prefix}color-fireworks
+
+144» ${prefix}cool-metal
+
+145» ${prefix}decorated-cookie
+
+146» ${prefix}deluxe-gold
+
+147» ${prefix}dinamo
+
+148» ${prefix}deluxe-silver
+
+149» ${prefix}double-exposure
+
+150» ${prefix}dragon-fire
+
+151» ${prefix}eroded-metal
+
+152» ${prefix}firework
+
+153» ${prefix}fox-crossfire
+
+154» ${prefix}fun-certify1
+
+156» ${prefix}fun-certify2
+
+157» ${prefix}futuristic
+
+158» ${prefix}galaxy-effect2
+
+159» ${prefix}galaxy-effect
+
+160» ${prefix}galaxy-angel
+
+161» ${prefix}galaxy-text
+
+162» ${prefix}galaxy-text-3
+
+163» ${prefix}gankk-league-of-kings
+
+164» ${prefix}genji-overwatch
+
+165» ${prefix}glossy
+
+166» ${prefix}glossy-bluemetal
+
+167» ${prefix}glossy-carbon
+
+168» ${prefix}glossy-chrome
+
+169» ${prefix}gold-avenger
+
+170» ${prefix}gold-barcar
+
+171» ${prefix}gold-batman
+
+172» ${prefix}gold-fox
+
+173» ${prefix}gold-effect
+
+174» ${prefix}gold-bird2
+
+175» ${prefix}gold-eagle
+
+176» ${prefix}gold-glitter
+
+177» ${prefix}gold-lion
+
+178» ${prefix}gold-lion2
+
+179» ${prefix}gold-star
+
+180» ${prefix}gold-tiger
+
+181» ${prefix}golden-letter
+
+182» ${prefix}gr-crossfire
+
+183» ${prefix}graffiti-color
+
+184» ${prefix}graffiti-text3
+
+185» ${prefix}graffiti-text4
+
+186» ${prefix}graffiti-text5
+
+187» ${prefix}graffiti-text8
+
+188» ${prefix}heart-birthday
+
+189» ${prefix}hanzo-overwatch
+
+190» ${prefix}greenhorror
+
+191» ${prefix}halloween-fire
+
+192» ${prefix}heart-cups
+
+193» ${prefix}green-brush
+
+194» ${prefix}hero3-crossfire
+
+195» ${prefix}holographic
+
+196» ${prefix}light-text
+
+197» ${prefix}lend-text
+
+198» ${prefix}ledtext
+
+199» ${prefix}lol-ahri
+
+200» ${prefix}logo-galaxy
+
+201» ${prefix}lol-fizz
+
+202» ${prefix}lol-ezreal-and-shen
+
+203» ${prefix}lol-fiora
+
+204» ${prefix}lol-draven
+
+204» ${prefix}lol-jinx
+
+205» ${prefix}lol-kalista
+
+206» ${prefix}lol-khazix
+
+207» ${prefix}lol-kogmaw
+
+208» ${prefix}lol-leesin
+
+209» ${prefix}lol-lux
+
+210» ${prefix}lol-master-yi
+
+211» ${prefix}lol-miss-fortune
+
+212» ${prefix}lol-nidalee
+
+213» ${prefix}lol-quinn
+
+214» ${prefix}lol-sona
+
+215» ${prefix}lol-riven
+
+216» ${prefix}lol-talon
+
+217» ${prefix}lol-thresh
+
+218» ${prefix}lol-vayne
+
+219» ${prefix}machines-effect
+
+220» ${prefix}lol-yasuo
+
+221» ${prefix}lol-zed
+
+222» ${prefix}lol-wukong
+
+223» ${prefix}magic-text
+
+224» ${prefix}mei-overwatch
+
+225» ${prefix}matrix-text
+
+226» ${prefix}magmatext
+
+227» ${prefix}metal-lion-2
+
+228» ${prefix}metal-headshot
+
+229» ${prefix}metal-avenger
+
+230» ${prefix}metal-realadrid
+
+231» ${prefix}metal-star
+
+232» ${prefix}metal-superman
+
+233» ${prefix}metal-text-effect
+
+234» ${prefix}metallic-letter
+
+235» ${prefix}metalic
+
+236» ${prefix}metal-wolf-2
+
+237» ${prefix}mganga-league-of-kings
+
+238» ${prefix}miniontext
+
+239» ${prefix}modern-gold-3
+
+240» ${prefix}modern-gold-4
+
+241» ${prefix}modern-gold-5-pro
+
+242» ${prefix}modern-gold-green
+
+243» ${prefix}modern-gold-purple
+
+244» ${prefix}modern-gold-red
+
+245» ${prefix}modern-gold-sliver
+
+246» ${prefix}modern-goldred
+
+247» ${prefix}neon
+
+248» ${prefix}neon-2
+
+249» ${prefix}neon-brightblue
+
+250» ${prefix}neon-effects
+
+251» ${prefix}neon-light-galaxy
+
+252» ${prefix}neon-satin
+
+253» ${prefix}neondevil
+
+254» ${prefix}neonlight
+
+255» ${prefix}neontext-light
+
+256» ${prefix}paper-cut
+
+257» ${prefix}paperart
+
+258» ${prefix}rainbow-effect
+
+259» ${prefix}reaper-overwatch
+
+260» ${prefix}red-birthdaycake
+
+261» ${prefix}redhot-metal
+
+262» ${prefix}resht-league-of-kings
+
+263» ${prefix}science
+
+264» ${prefix}sfg-crossfire
+
+265» ${prefix}sketch
+
+
+
+
 `
 }
 
 //diversión
 exports.funny = (prefix) => {
 return`
-╭─❒ 「 Juegos 」
-│» ${prefix}convertid [traducir IND]
-│» ${prefix}textoinvert [texto]
-│» ${prefix}gay 
-│» ${prefix}sitiosx
-│» ${prefix}puto
-│» ${prefix}lesbian
-│» ${prefix}gil
-│» ${prefix}idiota
-│» ${prefix}cerdo
-│» ${prefix}hermoso
-│» ${prefix}elegante
-│» ${prefix}hachero
-│» ${prefix}estupendo
-│» ${prefix}noob
-│» ${prefix}pequeño
-│» ${prefix}sexy
-│» ${prefix}hot
-│» ${prefix}instagram
-│» ${prefix}amigos
-│» ${prefix}pareja
-│» ${prefix}math [modo]
-│» ${prefix}suitpvp [@tag]
-╰❒
+   「 GAMES 」
+
+266» ${prefix}amigos
+
+267» ${prefix}gay
+
+268» ${prefix}textoinvert [texto]
+
+269» ${prefix}traductor [traductor]
+
+270» ${prefix}sitiosx
+
+271» ${prefix}instagram
+
+272» ${prefix}pareja
+
+273» ${prefix}puto
+
+274» ${prefix}lesbian
+
+275» ${prefix}gil
+
+276» ${prefix}idiota
+
+277» ${prefix}cerdo
+
+278» ${prefix}hermoso
+
+279» ${prefix}elegante
+
+280» ${prefix}hachero
+
+281» ${prefix}estupendo
+
+282» ${prefix}noob
+
+283» ${prefix}pequeño
+
+284» ${prefix}sexy
+
+285» ${prefix}hot
+
+286» ${prefix}math [modo]
+
+287» ${prefix}suitpvp [@tag]
+
+
+
+
 `
 }
 
@@ -760,80 +676,147 @@ return`
 
 exports.convert = (prefix) => {
 return`
-╭─❒ 「 Conversiones 」
-│» ${prefix}toimg [sticker]
-│» ${prefix}attp [texto]
-│» ${prefix}attp1 [texto]
-│» ${prefix}attp2 [texto]
-│» ${prefix}attp3 [texto]
-│» ${prefix}attp4 [texto]
-│» ${prefix}attp5 [texto]
-│» ${prefix}attp6 [texto]
-│» ${prefix}ttp [texto]
-│» ${prefix}take [sticker packname|author]
-│» ${prefix}ttpcustom color|texto
-│» ${prefix}removebg [imagen]
-│» ${prefix}smeme2 [texto arriba|texto abajo]
-│» ${prefix}smeme  [texto] + [imagen]
-│» ${prefix}sticker [imagen]
-│» ${prefix}emojimix 😝+😸 
-│» ${prefix}emojimix2 🙄
-│» ${prefix}tovideo [sticker a video]
-│» ${prefix}togif [stickerGif]
-│» ${prefix}tourl [imagen]
-│» ${prefix}tovn [video]
-│» ${prefix}tomp3 [video]
-│» ${prefix}toaudio [video]
-│» ${prefix}ebinary [menciona texto]
-│» ${prefix}dbinary [menciona texto]
-│» ${prefix}styletext [nombre]
-╰❒
+   「 CONVERTER 」
+
+288» ${prefix}toimage
+
+289» ${prefix}take
+
+290» ${prefix}attp
+
+291» ${prefix}attp1
+
+292» ${prefix}attp2
+
+293» ${prefix}attp3
+
+294» ${prefix}attp4
+
+295» ${prefix}attp5
+
+296» ${prefix}attp6
+
+297» ${prefix}ttp
+
+298» ${prefix}ttpcustom color|texto
+
+299» ${prefix}removebg
+
+300» ${prefix}smeme2 [texto|texto]
+
+301» ${prefix}smeme
+
+302» ${prefix}sticker
+
+303» ${prefix}emojimix 😝+😸
+
+304» ${prefix}emojimix2 🙄
+
+305» ${prefix}tovideo
+
+306» ${prefix}togif [stickerGif]
+
+307» ${prefix}tourl [imagen]
+
+308» ${prefix}tovn [video]
+
+309» ${prefix}tomp3 [video]
+
+310» ${prefix}toaudio [video]
+
+311» ${prefix}ebinary
+
+312» ${prefix}dbinary
+
+313» ${prefix}styletext
+
+
+
+
 `
 }
 
 //main
 exports.main = (prefix) => {
 return`
-╭─❒ 「 DataBase 」
-│» ${prefix}solicitar [texto]
-│» ${prefix}ping
-│» ${prefix}owner
-│» ${prefix}Menu
-│» ${prefix}delete
-│» ${prefix}infochat
-│» ${prefix}quoted
-│» ${prefix}listpc
-│» ${prefix}listgc
-│» ${prefix}listonline
-│» ${prefix}setcmd
-│» ${prefix}listcmd
-│» ${prefix}delcmd
-│» ${prefix}lockcmd
-│» ${prefix}addmsg
-│» ${prefix}listmsg
-│» ${prefix}getmsg
-│» ${prefix}delmsg
-╰❒
+   「 DATABASE 」
+
+314» ${prefix}solicitar
+
+315» ${prefix}ping
+
+316» ${prefix}test
+
+317» ${prefix}owner
+
+318» ${prefix}Menu
+
+319» ${prefix}delete
+
+320» ${prefix}infochat
+
+321» ${prefix}quoted
+
+322» ${prefix}listpc
+
+323» ${prefix}listgc
+
+324» ${prefix}listonline
+
+325» ${prefix}setcmd
+
+326» ${prefix}listcmd
+
+327» ${prefix}delcmd
+
+328» ${prefix}lockcmd
+
+329» ${prefix}addmsg
+
+330» ${prefix}listmsg
+
+331» ${prefix}getmsg
+
+332» ${prefix}delmsg
+
+
+
+
 `
 }
 
 //editor de voz
 exports.voice = (prefix) => {
 return`
-╭─❒ 「 Modificador 」
-│» ${prefix}bass [audio]
-│» ${prefix}blown [audio]
-│» ${prefix}deep [audio]
-│» ${prefix}saturado [audio]
-│» ${prefix}fast [audio]
-│» ${prefix}fat [audio]
-│» ${prefix}nightcore [audio]
-│» ${prefix}reversa [audio]
-│» ${prefix}lento [audio]
-│» ${prefix}robot [audio]
-│» ${prefix}suave [audio]
-│» ${prefix}ardilla [audio]
-╰❒
+   「 ALTERADOR VN 」
+
+333» ${prefix}bass
+
+334» ${prefix}blown
+
+335» ${prefix}deep
+
+336» ${prefix}saturado
+
+337» ${prefix}fast
+
+338» ${prefix}fat
+
+339» ${prefix}nightcore
+
+340» ${prefix}reversa
+
+341» ${prefix}lento
+
+342» ${prefix}robot
+
+343» ${prefix}suave
+
+344» ${prefix}ardilla
+
+
+
+
 `
 }
 
@@ -841,18 +824,39 @@ return`
 exports.ownermenu = (prefix) => {
 return` 
 
-╭─❒ 「 Owner 」
-│» ${prefix}set
-│» ${prefix}chat [opcion]
-│» ${prefix}join [link]
-│» ${prefix}leave
-│» ${prefix}block @user
-│» ${prefix}unblock @user
-│» ${prefix}bcgroup [text]
-│» ${prefix}bcall [text]
-│» ${prefix}setppbot [imagen]
-│» ${prefix}setexif
-╰❒
+   「 OWNER 」
+   
+345» ${prefix}mode
+
+346» ${prefix}react [emoji]
+
+347» ${prefix}join2 [link]
+
+348» ${prefix}chat [opcion]
+
+349» ${prefix}leave
+
+350» ${prefix}creditos
+
+351» ${prefix}block @user
+
+352» ${prefix}unblock @user
+
+353» ${prefix}bcgroup [text]
+
+354» ${prefix}bcall [text]
+
+355» ${prefix}setppbot [imagen]
+
+356» ${prefix}setexif
+
+357» ${prefix} $
+
+358» ${prefix} >
+
+
+
+
 `
 }
 
