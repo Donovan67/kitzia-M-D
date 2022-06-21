@@ -72,21 +72,21 @@ global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutp
 // Lainnya
 global.sessionName = 'session'
 global.prefa = ['#']
-global.sp = '�?'
+global.sp = 'â?'
 
 // Mess wait & Premium
 global.mess = {
     success: 'Succes',
     admin: 'Fitur Khusus Untuk Admin Grup!',
-    botAdmin: 'Bot Harus Menjadi Admin Untuk Memiliki Akses Ke Fitur Itu!,
+    botAdmin: 'Bot Harus Menjadi Admin Untuk Memiliki Akses Ke Fitur Itu!',
     owner: 'Fitur Khusus Owner',
     group: 'Fitur Khusus Grup!',
     private: 'Fitur Khusus Chat Pribadi!',
     listo: 'Done',
-    bot: 'Funciones especiales para el usuario con el número de bot',
+    bot: 'Funciones especiales para el usuario con el nÃºmero de bot',
     wait: 'Tunggu Sebentar...',
-    endLimit: 'Su límite diario ha expirado, el límite se restablecerá cada 12 horas',
-    endGLimit: 'Su límite diario de juego ha expirado, el límite se restablecerá cada 12 horas',
+    endLimit: 'Su lÃ­mite diario ha expirado, el lÃ­mite se restablecerÃ¡ cada 12 horas',
+    endGLimit: 'Su lÃ­mite diario de juego ha expirado, el lÃ­mite se restablecerÃ¡ cada 12 horas',
 }
 global.limitharian = "2000"
 global.limitgame = "2000"
