@@ -60,7 +60,7 @@ global.author = 'WA AUTO STICKER\n\n\n\n\n'
 // Thumb & Image random
 global.thumb = fs.readFileSync('./media/keyol.jpg')
 global.thumb2 = fs.readFileSync('./media/botimg.jpg')
-global.pp_video = fs.readFileSync('./media/keyol.mp4')
+global.pp_video = fs.readFileSync('./media/keyol.jpg')
 
 /*
 global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
